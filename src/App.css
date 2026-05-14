@@ -1,0 +1,38 @@
+/* 1. Essential Tailwind Imports (MUST BE AT THE TOP) */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. Global Variables & Reset */
+:root {
+  --bg-black: #050505;
+  --accent-blue: #007aff;
+  --accent-gold: #ffcc00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* Makes clicking nav links slide smoothly */
+}
+
+body {
+  background-color: var(--bg-black);
+  color: white;
+  font-family: 'Inter', sans-serif; /* Or whatever font you prefer */
+  overflow-x: hidden;
+}
+
+/* 3. Custom Keyframes (Optional) */
+/* Tailwind has built-in 'animate-bounce', but if you want 
+   your specific 'floating' animation, keep this: */
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: floating 4s ease-in-out infinite;
+}
