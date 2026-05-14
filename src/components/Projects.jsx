@@ -6,14 +6,14 @@ const Projects = () => {
     {
       title: "Vulnerability Assessment System",
       cat: "Cybersecurity",
-      image: "/image/vulnerability.png", // Add your screenshot here
+      image: "image/vulnerability.png", // Add your screenshot here
       link: "#", 
       tags: ["Nmap", "Metasploit", "Python"]
     },
     {
       title: "Reconnaissance Lab",
       cat: "Cybersecurity",
-      image: "/image/recon.png", // Add your screenshot here
+      image: "image/recon.png", // Add your screenshot here
       link: "#",
       tags: ["OSINT", "Linux", "Security"]
     }
@@ -24,42 +24,42 @@ const Projects = () => {
     {
       title: "Market Watch",
       cat: "Full-Stack",
-      image: "/image/marketwatch.png",
-      link: "https://marketwatch-brown.vercel.app",
+      image: "image/marketwatch.png",
+      link: "https://marketwatch-brown.vercel.app", 
       tags: ["React", "Firebase"]
     },
     {
       title: "SamFlix",
       cat: "UI/UX Clone",
-      image: "/image/samflix.png",
+      image: "image/samflix.png",
       link: "https://junior-sam.github.io/SamFlix/",
       tags: ["HTML", "CSS", "JS"]
     },
     {
       title: "Sam Quiz App",
       cat: "Web App",
-      image: "/image/samquiz.png",
+      image: "image/samquiz.png",
       link: "https://sam-quiz-app.vercel.app",
       tags: ["React", "API"]
     },
     {
       title: "Sam-Cart",
       cat: "E-commerce",
-      image: "/image/samcart.png",
+      image: "image/samcart.png",
       link: "https://junior-sam.github.io/Sam-Cart/",
       tags: ["Frontend", "State"]
     },
     {
       title: "Calculation Table",
       cat: "Utility",
-      image: "/image/cal-table.png",
+      image: "image/cal-table.png",
       link: "https://junior-sam.github.io/Calculation-table/",
       tags: ["JS", "Algorithms"]
     },
     {
       title: "A-Loop System",
       cat: "Logic Tool",
-      image: "/image/loop.png",
+      image: "image/loop.png",
       link: "https://a-loop-system.vercel.app/",
       tags: ["Vite", "Automation"]
     },
